@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Battleships.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,11 @@ namespace Battleships
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void DisplayUi(BoardViewModel o)
+        {
+            
         }
     }
 }
